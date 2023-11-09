@@ -18,7 +18,7 @@ return new class extends Migration
             $table->text('description')->nullable();
             $table->string('url')->nullable();
             $table->timestamps();
-
+            
             $table->index('user_id');
         });
     }

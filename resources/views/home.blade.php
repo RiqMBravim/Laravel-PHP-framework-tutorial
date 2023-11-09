@@ -17,7 +17,7 @@
             <div>aqui fica o espaço do threads @freecodecamp</div>
             <div>{{ $user->profile->description }}</div>
             <div>LearnToCodeRPG: <a href="https://www.freecodecamp.org/news/learn-to-code-rpg/">https://www.freecodecamp.org/news/learn-to-code-rpg/</div>
-            <div><a href="#">{{ user->profile->url }}</a></div>
+            <div><a href="#">{{ $user->profile->url }}</a></div>
         </div>
     </div>
 
